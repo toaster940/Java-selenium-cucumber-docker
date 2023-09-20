@@ -3,20 +3,11 @@
 ---
 
 ## Project Purpose
-This project aims to give an inspiring or sample of automation test framework that uses Selenium and Cucumber with Java as the programming language.
+This project aims to give an inspiring or sample of automation test framework that uses Selenium and Cucumber with Java as the programming language and docker container to run test on selenium hub.
 
-You can see pieces of framework components that build on every git branch.
-For example, you want to see how `Hooks` is implemented in the framework.
-Just select the `Hooks` branch then you will see the magic.
-
-![select branch](https://github.com/yazidisme/image-attachment/blob/master/seleniumcucumberframework1.png)
-
-If you want to go back to the current branch, you can select `main` as the default branch.
-
----
 
 ## Tools and Libraries
-This project using 2 main tools, Selenium and Cucumber.
+This project using 3 main tools, Selenium, Cucumber and docker.
 On the other hand, I using some of the tools that support this great framework.
 The complete list of tools, you can see in the `pom.xml` file.
 
@@ -24,6 +15,7 @@ The complete list of tools, you can see in the `pom.xml` file.
 * Java Development Kit
 * Maven
 * WebDriver, using ChromeDriver
+* Dcoker (if want to run remotely)
 
 ## Running Tests
 * Clone the repository from your fork to this directory
