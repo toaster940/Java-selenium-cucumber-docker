@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-09T15:58:29 IST" name="Suite" finished-at="2023-07-09T15:59:17 IST" duration-ms="48006">
+    <groups>
+    </groups>
+    <test started-at="2023-07-09T15:58:29 IST" name="Test" finished-at="2023-07-09T15:59:17 IST" duration-ms="48006">
+      <class name="dockerTestNG.ChromeTest3">
+        <test-method signature="title()[pri:0, instance:dockerTestNG.ChromeTest3@e350b40]" started-at="2023-07-09T15:58:44 IST" name="title" finished-at="2023-07-09T15:59:02 IST" duration-ms="18500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- title -->
+      </class> <!-- dockerTestNG.ChromeTest3 -->
+      <class name="dockerTestNG.SetupSeleniumGridDocker">
+        <test-method is-config="true" signature="startDockerGrid()[pri:0, instance:dockerTestNG.SetupSeleniumGridDocker@5b1669c0]" started-at="2023-07-09T15:58:29 IST" name="startDockerGrid" finished-at="2023-07-09T15:58:44 IST" duration-ms="15051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDockerGrid -->
+        <test-method is-config="true" signature="stopDockerGrid()[pri:0, instance:dockerTestNG.SetupSeleniumGridDocker@5b1669c0]" started-at="2023-07-09T15:59:10 IST" name="stopDockerGrid" finished-at="2023-07-09T15:59:17 IST" duration-ms="7053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDockerGrid -->
+      </class> <!-- dockerTestNG.SetupSeleniumGridDocker -->
+      <class name="dockerTestNG.ChromeTest1">
+        <test-method signature="title()[pri:0, instance:dockerTestNG.ChromeTest1@5a45133e]" started-at="2023-07-09T15:58:44 IST" name="title" finished-at="2023-07-09T15:59:10 IST" duration-ms="25816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- title -->
+      </class> <!-- dockerTestNG.ChromeTest1 -->
+      <class name="dockerTestNG.firefoxTest">
+        <test-method signature="title()[pri:0, instance:dockerTestNG.firefoxTest@2794eab6]" started-at="2023-07-09T15:58:44 IST" name="title" finished-at="2023-07-09T15:59:04 IST" duration-ms="20083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- title -->
+      </class> <!-- dockerTestNG.firefoxTest -->
+      <class name="dockerTestNG.ChromeTest2">
+        <test-method signature="title()[pri:0, instance:dockerTestNG.ChromeTest2@f09733f]" started-at="2023-07-09T15:58:44 IST" name="title" finished-at="2023-07-09T15:58:55 IST" duration-ms="11141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- title -->
+      </class> <!-- dockerTestNG.ChromeTest2 -->
+      <class name="dockerTestNG.EdgeTest">
+        <test-method signature="title()[pri:0, instance:dockerTestNG.EdgeTest@41a0aa7d]" started-at="2023-07-09T15:58:44 IST" name="title" finished-at="2023-07-09T15:58:57 IST" duration-ms="12893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- title -->
+      </class> <!-- dockerTestNG.EdgeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
